@@ -70,16 +70,27 @@ st.markdown("---")
 CONTENT_BY_LABEL: dict[str, dict[str, list[str]]] = {
 
      labels[0]: {
-       "texts": ["백인", "흑인", "한국이", "길쭉"],
+       "texts": ["백인", "푸짐", "느림"],
        "images": ["https://media.about.nike.com/img/c287f478-579c-4c31-a5da-3a92411694e9/luka-doncic-enlarge2-2.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0Ijo3OTQsInRvcCI6MTAsIndpZHRoIjoxMjc1LCJoZWlnaHQiOjIxMjN9LCJyZXNpemUiOnsid2lkdGgiOjM4NDB9fX0%3D&s=383fe9bab9113f62527527c9c79a8719d45edbdf7d0213113a9373d21d927848"],
        "videos": ["https://www.youtube.com/watch?v=sy8YwMRSKnk"]
      },
 
      labels[1]: {
-       "texts": ["백인", "흑인", "한국이", "길쭉"],
+       "texts": ["흑인", "강함", "킹"],
        "images": ["https://media.about.nike.com/img/c287f478-579c-4c31-a5da-3a92411694e9/luka-doncic-enlarge2-2.jpg?m=eyJlZGl0cyI6eyJqcGVnIjp7InF1YWxpdHkiOjEwMH0sIndlYnAiOnsicXVhbGl0eSI6MTAwfSwiZXh0cmFjdCI6eyJsZWZ0Ijo3OTQsInRvcCI6MTAsIndpZHRoIjoxMjc1LCJoZWlnaHQiOjIxMjN9LCJyZXNpemUiOnsid2lkdGgiOjM4NDB9fX0%3D&s=383fe9bab9113f62527527c9c79a8719d45edbdf7d0213113a9373d21d927848"],
-       "videos": ["https://www.youtube.com/watch?v=sy8YwMRSKnk"]
+       "videos": ["https://www.youtube.com/watch?v=-9lP95Qo-I0"]
      },
+    labels[2]: {
+       "texts": ["한국인", "수비", "놔둬"],
+       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.hani.co.kr%2Farti%2Fsports%2Fsports_general%2F925878.html&psig=AOvVaw3Ee8J-Hq_WLRq1rUAzW28G&ust=1763522360139000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCMC_z_He-pADFQAAAAAdAAAAABAE"],
+       "videos": ["https://www.youtube.com/watch?v=X3lVsJdV05w"]
+    },
+    labels[3]: {
+       "texts": ["한국인", "수비", "놔둬"],
+       "images": ["https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.rookie.co.kr%2Fnews%2FarticleView.html%3Fidxno%3D53670&psig=AOvVaw1wv0C2N6ZjFmd_355gUJn3&ust=1763522450186000&source=images&cd=vfe&opi=89978449&ved=0CBUQjRxqFwoTCIjwqp_f-pADFQAAAAAdAAAAABAJ"],
+       "videos": ["https://www.youtube.com/watch?v=pE_KNAw5pdY"]
+    }
+    
 }
 
 # ======================
